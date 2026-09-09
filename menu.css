@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  #f4f7f6;
+}
+header {
+    background-color: #0d233a; /* Dark Academic Blue */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0,20px;
+    height: 70px;
+
+}
+.logo{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.item{
+    position: relative;
+}
+.link{
+    display: block;
+    padding: 10px 18px;
+    color: #e0e6ed;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 4px;
+}
+.link:hover{
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.arrow {
+    font-size: 0.8rem;
+    margin-left: 4px;
+  }
+.drop-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    min-width: 200px;
+    list-style: none;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+  }
+  .drop:hover .drop-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  /* Dropdown Item Links */
+  .drop-menu li a {
+    display: block;
+    padding: 12px 16px;
+    color: #333333;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .drop-menu li:first-child a {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .drop-menu li:last-child a {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  
+  .drop-menu li a:hover {
+    background-color: #0d233a;
+    color: #ffffff;
+  }
