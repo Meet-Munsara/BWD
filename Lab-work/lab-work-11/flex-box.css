@@ -1,0 +1,77 @@
+
+.container{
+    display: flex;
+    border: 5px solid black;
+    height: 90vh;
+    flex-wrap:wrap; 
+    align-content:center;
+    align-items: baseline;
+    column-gap: 2cm;
+    row-gap: 2cm;
+   
+  
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+        font-size: 1em;
+    background-color: hsl(32, 80%, 53%);
+}
+#box1:hover{
+    background-color: red;
+}
+#box2{
+    font-size: 2em;
+    background-color: hsl(52,100%,70%);
+}
+#box2:hover{
+    background-color: rgba(181, 209, 24, 0.733);
+}
+#box3{
+    font-size: 3em;
+    background-color: hsl(96, 53%, 24%);
+}
+#box3:hover{
+    background-color: red;
+}
+#box4{
+    font-size: 4em;
+    background-color: hsl(201, 90%, 35%);
+}
+#box4:hover{
+    background-color: rgb(76, 15, 173);
+}
+#box5{
+    font-size: 0.9em;
+background-color: hsl(32, 80%, 53%);
+}
+#box5:hover{
+    background-color: rgb(230, 90, 121);
+}
+#box6{
+font-size: 0.6em;
+background-color: hsl(52,100%,70%);
+}
+#box6:hover{
+    background-color: rgb(150, 192, 36);
+}
+#box7{
+font-size: 0.3em;
+background-color: hsl(96, 53%, 24%);
+}
+#box7:hover{
+    background-color: rgb(28, 32, 235);
+}
+#box8{
+font-size: 0.1em;
+background-color: hsl(201, 90%, 35%);
+}
+#box8:hover{
+    background-color: rgb(22, 143, 48);
+}

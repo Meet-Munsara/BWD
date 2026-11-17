@@ -1,0 +1,41 @@
+.ani{
+    height: 150px;
+    width: 150px;
+    border: solid black;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: 300px;
+
+   animation-duration: 3s;
+    animation-name: spin;
+    
+    animation-timing-function: ease-in-out;
+    text-align-last: 10px;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+
+    
+}
+
+@keyframes spin {
+    0%{
+
+    }
+    50%{
+        scale: 2;
+        transform: rotate(10deg);
+        border-radius: 30%;
+        background-color: darkgreen
+    }
+    100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+        background-color: darkorange;
+    }
+}

@@ -1,0 +1,65 @@
+
+body {
+    background-color: #0f172a;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+
+  .reel-table {
+    width: 280px;
+    height: 480px;
+    margin: 30px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid #334155;
+    background: url('https://picsum.photos/280/480') center/cover;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    border-collapse: collapse;
+  }
+
+  .bottom-row {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+    vertical-align: bottom;
+    padding: 15px;
+  }
+
+  .profile-pic {
+    width: 30px;
+    height: 30px;
+    background-color: #e11d48;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .username {
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 5px;
+  }
+
+  .caption {
+    font-size: 11px;
+    margin-top: 8px;
+    color: #e2e8f0;
+  }
+
+  .btn {
+    background: rgba(255, 255, 255, 0.2);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+  .count {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }

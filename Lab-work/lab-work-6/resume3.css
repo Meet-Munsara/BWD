@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b; 
+    line-height: 1.6;
+    padding: 30px 15px;
+}
+
+
+.resume-card {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-top: 6px solid #2563eb;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px dashed #cbd5e1;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    color: #0f172a;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #2563eb;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.contact-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+    font-size: 14px;
+    color: #475569;
+}
+
+.contact-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.contact-item a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    margin-bottom: 24px;
+}
+
+.section-title {
+    color: #0f172a;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 4px;
+    margin-bottom: 14px;
+}
+
+ul.bullet-list {
+    padding-left: 20px;
+}
+
+ul.bullet-list li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #334155;
+}
+
+ul.bullet-list li strong {
+    color: #0f172a;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+    font-size: 13.5px;
+}
+
+table th, table td {
+    border: 1px solid #cbd5e1;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #1e293b;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+.badge-pursuing {
+    background-color: #dbeafe;
+    color: #1e40af;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    row-gap: 8px;
+    font-size: 14px;
+}
+
+.info-label {
+    font-weight: 600;
+    color: #64748b;}

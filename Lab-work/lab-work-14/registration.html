@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login & Registration </title>
+    
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <style>
+        body {
+            background-color: #eef2f5; 
+        }
+        
+        .login-header {
+            color: #0d6efd; 
+        }
+        
+        .register-header {
+            color: #198754; 
+        }
+
+        .card {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+        
+        <h2 class="text-center mb-4 text-dark fw-bold">Student Portal Access</h2>
+        
+        
+        <div class="row g-4">
+            
+            
+            <div class="col-md-6">
+                <div class="card shadow p-4">
+                    <h3 class="login-header text-center mb-3" style="color: rgb(rgb(141, 22, 22), rgb(28, 187, 226), rgb(27, 224, 175));">Login</h3>
+                    
+                    <form>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" placeholder="Enter email" required>
+                        </div>
+                        
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter password" required>
+                        </div>
+                        
+                       
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="remember">
+                            <label class="form-check-label" for="remember">Remember me</label>
+                        </div>
+                        
+                       
+                        <button type="submit" class="btn btn-primary w-100" style="background-color: #db4112;">Log In</button>
+                    </form>
+                </div>
+            </div>
+
+            
+            <div class="col-md-6">
+                <div class="card shadow p-4">
+                    <h3 class="register-header text-center mb-3" style="color:saddlebrown;">Register</h3>
+                    
+                    <form>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter full name" required>
+                        </div>
+                        
+                    
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" placeholder="Enter email" required>
+                        </div>
+                        
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Create password" required>
+                        </div>
+                        
+                      
+                        <div class="mb-3">
+                            <label class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" placeholder="Confirm password" required>
+                        </div>
+                        
+                      
+                        <button type="submit" class="btn btn-success w-100" style="background-color: gold;">Register Now</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS-learning</title>
+ 
+</head>
+<body>
+    <style>
+        
+     
+        #box {
+          width: 100px;
+          height: 100px;
+          background-color: lightgray;
+          border: 1px solid #aaa;
+          margin-bottom: 10px;
+          transition: background-color 0.3s;
+        }
+       
+      </style>
+
+  <section>
+    <p id="title">This paragraph changes color.</p>
+    <button onclick="tc()">Red / Blue</button>
+  </section>
+
+
+  <section>
+    <p id="date">Click the button for current date and time</p>
+    <button onclick="displayDate()">Show Date & Time</button>
+  </section>
+
+
+  <section>
+    <input type="number" id="num1" placeholder="Num 1"> +
+    <input type="number" id="num2" placeholder="Num 2">
+    <button onclick="calculateSum()">Calculate Sum</button>
+    <p id="sumResult">Sum</p>
+  </section>
+
+  <section>
+    <div id="box"></div>
+    <button onclick="changeBoxColor()">Change Box Color</button>
+  </section>
+
+  <script>
+
+    function tc() {
+      const title = document.getElementById("title");
+      title.style.color = title.style.color === "red" ? "blue" : "red";
+    }
+
+    function displayDate() {
+      const dateParagraph = document.getElementById("date");
+      dateParagraph.innerText = new Date().toLocaleString();
+    }
+
+
+    function calculateSum() {
+      const num1 = parseFloat(document.getElementById("num1").value) || 0;
+      const num2 = parseFloat(document.getElementById("num2").value) || 0;
+      const sum = num1 + num2;
+      document.getElementById("sumResult").innerText = "Sum: " + sum;
+    }
+
+
+    function changeBoxColor() {
+      const box = document.getElementById("box");
+      box.style.backgroundColor = box.style.backgroundColor === "coral" ? "lightgreen" : "coral";
+    }
+  </script>
+
+</body>
+</html>

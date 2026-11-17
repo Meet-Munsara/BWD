@@ -1,0 +1,63 @@
+body{
+  background-color:lightgray;
+}
+
+
+.join{
+  background-color: rgb(200,0,0);
+   height:36px;
+  width:90px;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  transition:opasity 0.15s;
+  margin-left:300px;
+  margin-top:300px;
+  
+}
+.join:hover{
+  opacity:0.7;
+  
+}
+.join:active{
+  opacity:0.4
+}
+.follow{
+   background-color: rgb(41,118,211);
+  height:36px;
+  width:70px;
+  color:white;
+  border-style:solid;
+  border-radius:7px;
+  cursor:pointer;
+  border-width:1px;
+    transition:opasity 0.15s;
+  margin-left:300px;
+}
+.follow:hover{
+  background-color:blue;
+  padding-left:5px;
+}
+.follow:active{
+  opacity:0.5;
+}
+.login{
+     background-color: rgb(41,118,211);
+  height:36px;
+  width:75px;
+  color:white;
+  border-style:solid;
+  border-radius:7px;
+  cursor:pointer;
+  border-width:1px;
+    transition:opasity 0.15s;
+  margin-left:300px;
+}
+.login:hover{
+  background-color:red;
+  padding-left:5px;
+}
+.login:active{
+  background-color:green;
+}
